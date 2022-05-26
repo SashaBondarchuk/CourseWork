@@ -138,6 +138,7 @@ namespace CourseWork
         }
         #endregion
 
+
         #region Text Documents
         private void FillDataFromTxt()
         {
@@ -147,6 +148,7 @@ namespace CourseWork
             Stamp.FillStamps();
         }
         #endregion
+
 
         #region ToolStripMenuItem Click
         private void CreateNewDocumentToolStripMenuItem_Click(object sender, EventArgs e)
@@ -511,6 +513,7 @@ namespace CourseWork
                 }
                 DocumentList.Items.Remove(((DocumentList)DocumentListsDataGrid.SelectedRows[0].DataBoundItem).Id);
                 ((DocumentList)DocumentListsDataGrid.SelectedRows[0].DataBoundItem).User.ListCount--;
+                User.RefreshUsersTxt();
 
                 if (((User)SelectUserForListsComboBox.SelectedItem).DocumentLists.Count == 0)
                     ListNameTextBox.Text = "";
