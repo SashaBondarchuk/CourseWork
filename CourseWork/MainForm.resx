@@ -1,0 +1,2818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CreateNewDocumentToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.8pt</value>
+  </data>
+  <data name="CreateNewDocumentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 26</value>
+  </data>
+  <data name="CreateNewDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Створити новий документ</value>
+  </data>
+  <data name="AddStampToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.8pt</value>
+  </data>
+  <data name="AddStampToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 26</value>
+  </data>
+  <data name="AddStampToolStripMenuItem.Text" xml:space="preserve">
+    <value>Додати унікальну відмітку</value>
+  </data>
+  <data name="AdditionalFunctionsToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.8pt</value>
+  </data>
+  <data name="AdditionalFunctionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 26</value>
+  </data>
+  <data name="AdditionalFunctionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Додаткові функції</value>
+  </data>
+  <data name="DocumentToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12pt</value>
+  </data>
+  <data name="DocumentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 29</value>
+  </data>
+  <data name="DocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="CreateNewDocumentListToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.8pt</value>
+  </data>
+  <data name="CreateNewDocumentListToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 26</value>
+  </data>
+  <data name="CreateNewDocumentListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Створити список документів</value>
+  </data>
+  <data name="EditDocumentListToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.8pt</value>
+  </data>
+  <data name="EditDocumentListToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 26</value>
+  </data>
+  <data name="EditDocumentListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Редагувати список документів</value>
+  </data>
+  <data name="ChooseActionToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12pt</value>
+  </data>
+  <data name="ChooseActionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 29</value>
+  </data>
+  <data name="ChooseActionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Список документів</value>
+  </data>
+  <data name="AddNewUserToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.8pt</value>
+  </data>
+  <data name="AddNewUserToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 26</value>
+  </data>
+  <data name="AddNewUserToolStripMenuItem.Text" xml:space="preserve">
+    <value>Додати користувача</value>
+  </data>
+  <data name="ShowUsersToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10.8pt</value>
+  </data>
+  <data name="ShowUsersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 26</value>
+  </data>
+  <data name="ShowUsersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Переглянути користувачів</value>
+  </data>
+  <data name="UserToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12pt</value>
+  </data>
+  <data name="UserToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 29</value>
+  </data>
+  <data name="UserToolStripMenuItem.Text" xml:space="preserve">
+    <value>Користувач</value>
+  </data>
+  <data name="menu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 0, 2</value>
+  </data>
+  <data name="menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="menu.Text" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="&gt;&gt;menu.Name" xml:space="preserve">
+    <value>menu</value>
+  </data>
+  <data name="&gt;&gt;menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menu.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ChooseUserForDocumentLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChooseUserForDocumentLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="ChooseUserForDocumentLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChooseUserForDocumentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 135</value>
+  </data>
+  <data name="ChooseUserForDocumentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 27</value>
+  </data>
+  <data name="ChooseUserForDocumentLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="ChooseUserForDocumentLabel.Text" xml:space="preserve">
+    <value>Виберіть користувача:</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserForDocumentLabel.Name" xml:space="preserve">
+    <value>ChooseUserForDocumentLabel</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserForDocumentLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserForDocumentLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserForDocumentLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SelectUserForDocumentComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="SelectUserForDocumentComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 165</value>
+  </data>
+  <data name="SelectUserForDocumentComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 35</value>
+  </data>
+  <data name="SelectUserForDocumentComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForDocumentComboBox.Name" xml:space="preserve">
+    <value>SelectUserForDocumentComboBox</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForDocumentComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForDocumentComboBox.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForDocumentComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DocNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 555</value>
+  </data>
+  <data name="DocNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 27</value>
+  </data>
+  <data name="DocNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="DocNameLabel.Text" xml:space="preserve">
+    <value>Найменування:</value>
+  </data>
+  <data name="&gt;&gt;DocNameLabel.Name" xml:space="preserve">
+    <value>DocNameLabel</value>
+  </data>
+  <data name="&gt;&gt;DocNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocNameLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DocNameLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DocTermOfImplementationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocTermOfImplementationLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocTermOfImplementationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocTermOfImplementationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 473</value>
+  </data>
+  <data name="DocTermOfImplementationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 27</value>
+  </data>
+  <data name="DocTermOfImplementationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="DocTermOfImplementationLabel.Text" xml:space="preserve">
+    <value>Терміновість:</value>
+  </data>
+  <data name="&gt;&gt;DocTermOfImplementationLabel.Name" xml:space="preserve">
+    <value>DocTermOfImplementationLabel</value>
+  </data>
+  <data name="&gt;&gt;DocTermOfImplementationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocTermOfImplementationLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DocTermOfImplementationLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DocDegreeOfPubLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocDegreeOfPubLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocDegreeOfPubLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocDegreeOfPubLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 390</value>
+  </data>
+  <data name="DocDegreeOfPubLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 27</value>
+  </data>
+  <data name="DocDegreeOfPubLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="DocDegreeOfPubLabel.Text" xml:space="preserve">
+    <value>Ступінь гласності:</value>
+  </data>
+  <data name="&gt;&gt;DocDegreeOfPubLabel.Name" xml:space="preserve">
+    <value>DocDegreeOfPubLabel</value>
+  </data>
+  <data name="&gt;&gt;DocDegreeOfPubLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocDegreeOfPubLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DocDegreeOfPubLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DocOriginLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocOriginLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocOriginLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocOriginLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 305</value>
+  </data>
+  <data name="DocOriginLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 27</value>
+  </data>
+  <data name="DocOriginLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="DocOriginLabel.Text" xml:space="preserve">
+    <value>Призначення документа:</value>
+  </data>
+  <data name="&gt;&gt;DocOriginLabel.Name" xml:space="preserve">
+    <value>DocOriginLabel</value>
+  </data>
+  <data name="&gt;&gt;DocOriginLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocOriginLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DocOriginLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TermOfImplementationComboBox.Items" xml:space="preserve">
+    <value>Терміновий</value>
+  </data>
+  <data name="TermOfImplementationComboBox.Items1" xml:space="preserve">
+    <value>Нетерміновий</value>
+  </data>
+  <data name="TermOfImplementationComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 503</value>
+  </data>
+  <data name="TermOfImplementationComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 35</value>
+  </data>
+  <data name="TermOfImplementationComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TermOfImplementationComboBox.Name" xml:space="preserve">
+    <value>TermOfImplementationComboBox</value>
+  </data>
+  <data name="&gt;&gt;TermOfImplementationComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TermOfImplementationComboBox.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;TermOfImplementationComboBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NameComboBox.Items" xml:space="preserve">
+    <value>Акт</value>
+  </data>
+  <data name="NameComboBox.Items1" xml:space="preserve">
+    <value>Вказівка</value>
+  </data>
+  <data name="NameComboBox.Items2" xml:space="preserve">
+    <value>Довідка </value>
+  </data>
+  <data name="NameComboBox.Items3" xml:space="preserve">
+    <value>Договір</value>
+  </data>
+  <data name="NameComboBox.Items4" xml:space="preserve">
+    <value>Доручення </value>
+  </data>
+  <data name="NameComboBox.Items5" xml:space="preserve">
+    <value>Записка</value>
+  </data>
+  <data name="NameComboBox.Items6" xml:space="preserve">
+    <value>Заява</value>
+  </data>
+  <data name="NameComboBox.Items7" xml:space="preserve">
+    <value>Звіт</value>
+  </data>
+  <data name="NameComboBox.Items8" xml:space="preserve">
+    <value>Контракт</value>
+  </data>
+  <data name="NameComboBox.Items9" xml:space="preserve">
+    <value>Лист</value>
+  </data>
+  <data name="NameComboBox.Items10" xml:space="preserve">
+    <value>Ордер</value>
+  </data>
+  <data name="NameComboBox.Items11" xml:space="preserve">
+    <value>Паспорт</value>
+  </data>
+  <data name="NameComboBox.Items12" xml:space="preserve">
+    <value>План</value>
+  </data>
+  <data name="NameComboBox.Items13" xml:space="preserve">
+    <value>Положення </value>
+  </data>
+  <data name="NameComboBox.Items14" xml:space="preserve">
+    <value>Протокол</value>
+  </data>
+  <data name="NameComboBox.Items15" xml:space="preserve">
+    <value>Резюме</value>
+  </data>
+  <data name="NameComboBox.Items16" xml:space="preserve">
+    <value>Розписка</value>
+  </data>
+  <data name="NameComboBox.Items17" xml:space="preserve">
+    <value>Розпорядження</value>
+  </data>
+  <data name="NameComboBox.Items18" xml:space="preserve">
+    <value>Свідотство</value>
+  </data>
+  <data name="NameComboBox.Items19" xml:space="preserve">
+    <value>Сертифікат</value>
+  </data>
+  <data name="NameComboBox.Items20" xml:space="preserve">
+    <value>Статут</value>
+  </data>
+  <data name="NameComboBox.Items21" xml:space="preserve">
+    <value>Інструкція</value>
+  </data>
+  <data name="NameComboBox.Items22" xml:space="preserve">
+    <value>Угода</value>
+  </data>
+  <data name="NameComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 585</value>
+  </data>
+  <data name="NameComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 35</value>
+  </data>
+  <data name="NameComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;NameComboBox.Name" xml:space="preserve">
+    <value>NameComboBox</value>
+  </data>
+  <data name="&gt;&gt;NameComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameComboBox.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;NameComboBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DegreeOfPublicityComboBox.Items" xml:space="preserve">
+    <value>Секретний</value>
+  </data>
+  <data name="DegreeOfPublicityComboBox.Items1" xml:space="preserve">
+    <value>Звичайний</value>
+  </data>
+  <data name="DegreeOfPublicityComboBox.Items2" xml:space="preserve">
+    <value>Службовий</value>
+  </data>
+  <data name="DegreeOfPublicityComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 420</value>
+  </data>
+  <data name="DegreeOfPublicityComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 35</value>
+  </data>
+  <data name="DegreeOfPublicityComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;DegreeOfPublicityComboBox.Name" xml:space="preserve">
+    <value>DegreeOfPublicityComboBox</value>
+  </data>
+  <data name="&gt;&gt;DegreeOfPublicityComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DegreeOfPublicityComboBox.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DegreeOfPublicityComboBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="OriginComboBox.AutoCompleteCustomSource" xml:space="preserve">
+    <value>Офіційно-діловий </value>
+  </data>
+  <data name="OriginComboBox.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>Особистий</value>
+  </data>
+  <data name="OriginComboBox.Items" xml:space="preserve">
+    <value>Офіційно-діловий</value>
+  </data>
+  <data name="OriginComboBox.Items1" xml:space="preserve">
+    <value>Особистий</value>
+  </data>
+  <data name="OriginComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 335</value>
+  </data>
+  <data name="OriginComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 35</value>
+  </data>
+  <data name="OriginComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;OriginComboBox.Name" xml:space="preserve">
+    <value>OriginComboBox</value>
+  </data>
+  <data name="&gt;&gt;OriginComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OriginComboBox.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;OriginComboBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ChooseDocumentListLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChooseDocumentListLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="ChooseDocumentListLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChooseDocumentListLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 223</value>
+  </data>
+  <data name="ChooseDocumentListLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 27</value>
+  </data>
+  <data name="ChooseDocumentListLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ChooseDocumentListLabel.Text" xml:space="preserve">
+    <value>Виберіть список документів:</value>
+  </data>
+  <data name="&gt;&gt;ChooseDocumentListLabel.Name" xml:space="preserve">
+    <value>ChooseDocumentListLabel</value>
+  </data>
+  <data name="&gt;&gt;ChooseDocumentListLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChooseDocumentListLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;ChooseDocumentListLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DocumentListComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 249</value>
+  </data>
+  <data name="DocumentListComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="DocumentListComboBox.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="DocumentListComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 35</value>
+  </data>
+  <data name="DocumentListComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;DocumentListComboBox.Name" xml:space="preserve">
+    <value>DocumentListComboBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentListComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentListComboBox.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentListComboBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CreateDocumentBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateDocumentBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 645</value>
+  </data>
+  <data name="CreateDocumentBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateDocumentBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 52</value>
+  </data>
+  <data name="CreateDocumentBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CreateDocumentBtn.Text" xml:space="preserve">
+    <value>Створити документ</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBtn.Name" xml:space="preserve">
+    <value>CreateDocumentBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBtn.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBtn.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="OriginLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OriginLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OriginLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 134</value>
+  </data>
+  <data name="OriginLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="OriginLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;OriginLabel.Name" xml:space="preserve">
+    <value>OriginLabel</value>
+  </data>
+  <data name="&gt;&gt;OriginLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OriginLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;OriginLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="DocumentNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 77</value>
+  </data>
+  <data name="DocumentNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="DocumentNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 34</value>
+  </data>
+  <data name="DocumentNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameTextBox.Name" xml:space="preserve">
+    <value>DocumentNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameTextBox.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameTextBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="DocumentNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocumentNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocumentNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocumentNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 48</value>
+  </data>
+  <data name="DocumentNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 27</value>
+  </data>
+  <data name="DocumentNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DocumentNameLabel.Text" xml:space="preserve">
+    <value>Введіть ім'я документа:</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameLabel.Name" xml:space="preserve">
+    <value>DocumentNameLabel</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="CreateDocumentBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateDocumentBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 934</value>
+  </data>
+  <data name="CreateDocumentBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateDocumentBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateDocumentBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 729</value>
+  </data>
+  <data name="CreateDocumentBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CreateDocumentBox.Text" xml:space="preserve">
+    <value>Cтворення документу</value>
+  </data>
+  <data name="CreateDocumentBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBox.Name" xml:space="preserve">
+    <value>CreateDocumentBox</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>112, 17</value>
+  </metadata>
+  <data name="UserLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="UserLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UserLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 120</value>
+  </data>
+  <data name="UserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 27</value>
+  </data>
+  <data name="UserLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="UserLabel.Text" xml:space="preserve">
+    <value>Користувач: </value>
+  </data>
+  <data name="&gt;&gt;UserLabel.Name" xml:space="preserve">
+    <value>UserLabel</value>
+  </data>
+  <data name="&gt;&gt;UserLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UserListComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 150</value>
+  </data>
+  <data name="UserListComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 35</value>
+  </data>
+  <data name="UserListComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;UserListComboBox.Name" xml:space="preserve">
+    <value>UserListComboBox</value>
+  </data>
+  <data name="&gt;&gt;UserListComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserListComboBox.Parent" xml:space="preserve">
+    <value>CreateDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserListComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CreateListBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateListBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 210</value>
+  </data>
+  <data name="CreateListBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateListBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 54</value>
+  </data>
+  <data name="CreateListBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="CreateListBtn.Text" xml:space="preserve">
+    <value>Створити список</value>
+  </data>
+  <data name="&gt;&gt;CreateListBtn.Name" xml:space="preserve">
+    <value>CreateListBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateListBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateListBtn.Parent" xml:space="preserve">
+    <value>CreateDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;CreateListBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DocumentListNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 74</value>
+  </data>
+  <data name="DocumentListNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="DocumentListNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 34</value>
+  </data>
+  <data name="DocumentListNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameTextBox.Name" xml:space="preserve">
+    <value>DocumentListNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameTextBox.Parent" xml:space="preserve">
+    <value>CreateDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DocumentListNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocumentListNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocumentListNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocumentListNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 45</value>
+  </data>
+  <data name="DocumentListNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 27</value>
+  </data>
+  <data name="DocumentListNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DocumentListNameLabel.Text" xml:space="preserve">
+    <value>Введіть ім'я списку:</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameLabel.Name" xml:space="preserve">
+    <value>DocumentListNameLabel</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameLabel.Parent" xml:space="preserve">
+    <value>CreateDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentListNameLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 945</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 295</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.Text" xml:space="preserve">
+    <value>Створення списку документів</value>
+  </data>
+  <data name="CreateDocumentListGroupBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentListGroupBox.Name" xml:space="preserve">
+    <value>CreateDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentListGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentListGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateDocumentListGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DocumentListsDataGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 45</value>
+  </data>
+  <data name="DocumentListsDataGrid.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="DocumentListsDataGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>627, 276</value>
+  </data>
+  <data name="DocumentListsDataGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;DocumentListsDataGrid.Name" xml:space="preserve">
+    <value>DocumentListsDataGrid</value>
+  </data>
+  <data name="&gt;&gt;DocumentListsDataGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentListsDataGrid.Parent" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentListsDataGrid.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="IsPremiumCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IsPremiumCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="IsPremiumCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsPremiumCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 339</value>
+  </data>
+  <data name="IsPremiumCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="IsPremiumCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="IsPremiumCheckBox.Text" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="&gt;&gt;IsPremiumCheckBox.Name" xml:space="preserve">
+    <value>IsPremiumCheckBox</value>
+  </data>
+  <data name="&gt;&gt;IsPremiumCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsPremiumCheckBox.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;IsPremiumCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UserNickNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 214</value>
+  </data>
+  <data name="UserNickNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="UserNickNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 34</value>
+  </data>
+  <data name="UserNickNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameTextBox.Name" xml:space="preserve">
+    <value>UserNickNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameTextBox.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NickNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NickNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="NickNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NickNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 182</value>
+  </data>
+  <data name="NickNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 27</value>
+  </data>
+  <data name="NickNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="NickNameLabel.Text" xml:space="preserve">
+    <value>Нікнейм:</value>
+  </data>
+  <data name="&gt;&gt;NickNameLabel.Name" xml:space="preserve">
+    <value>NickNameLabel</value>
+  </data>
+  <data name="&gt;&gt;NickNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NickNameLabel.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;NickNameLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AddUserBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="AddUserBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddUserBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 378</value>
+  </data>
+  <data name="AddUserBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="AddUserBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 64</value>
+  </data>
+  <data name="AddUserBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AddUserBtn.Text" xml:space="preserve">
+    <value>Додати користувача</value>
+  </data>
+  <data name="&gt;&gt;AddUserBtn.Name" xml:space="preserve">
+    <value>AddUserBtn</value>
+  </data>
+  <data name="&gt;&gt;AddUserBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddUserBtn.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;AddUserBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BirthdayDateTimePickerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BirthdayDateTimePickerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="BirthdayDateTimePickerLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BirthdayDateTimePickerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 259</value>
+  </data>
+  <data name="BirthdayDateTimePickerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="BirthdayDateTimePickerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BirthdayDateTimePickerLabel.Text" xml:space="preserve">
+    <value>Дата народження:</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePickerLabel.Name" xml:space="preserve">
+    <value>BirthdayDateTimePickerLabel</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePickerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePickerLabel.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePickerLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BirthdayDateTimePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="BirthdayDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 295</value>
+  </data>
+  <data name="BirthdayDateTimePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="BirthdayDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="BirthdayDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePicker.Name" xml:space="preserve">
+    <value>BirthdayDateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePicker.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;BirthdayDateTimePicker.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="UserLastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 136</value>
+  </data>
+  <data name="UserLastNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="UserLastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 34</value>
+  </data>
+  <data name="UserLastNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameTextBox.Name" xml:space="preserve">
+    <value>UserLastNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameTextBox.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="UserLastNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserLastNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="UserLastNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UserLastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 107</value>
+  </data>
+  <data name="UserLastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 27</value>
+  </data>
+  <data name="UserLastNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="UserLastNameLabel.Text" xml:space="preserve">
+    <value>Прізвище:</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameLabel.Name" xml:space="preserve">
+    <value>UserLastNameLabel</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameLabel.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="UserNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 65</value>
+  </data>
+  <data name="UserNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="UserNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 34</value>
+  </data>
+  <data name="UserNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Name" xml:space="preserve">
+    <value>UserNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="UserNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="UserNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UserNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 36</value>
+  </data>
+  <data name="UserNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 27</value>
+  </data>
+  <data name="UserNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="UserNameLabel.Text" xml:space="preserve">
+    <value>Ім'я:</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Name" xml:space="preserve">
+    <value>UserNameLabel</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.Parent" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserNameLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CreateUserGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateUserGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>693, 36</value>
+  </data>
+  <data name="CreateUserGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateUserGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CreateUserGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 465</value>
+  </data>
+  <data name="CreateUserGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CreateUserGroupBox.Text" xml:space="preserve">
+    <value>Створення користувача</value>
+  </data>
+  <data name="CreateUserGroupBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CreateUserGroupBox.Name" xml:space="preserve">
+    <value>CreateUserGroupBox</value>
+  </data>
+  <data name="&gt;&gt;CreateUserGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateUserGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateUserGroupBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ListNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="ListNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ListNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="ListNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 27</value>
+  </data>
+  <data name="ListNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="ListNameLabel.Text" xml:space="preserve">
+    <value>Назва списку:</value>
+  </data>
+  <data name="&gt;&gt;ListNameLabel.Name" xml:space="preserve">
+    <value>ListNameLabel</value>
+  </data>
+  <data name="&gt;&gt;ListNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListNameLabel.Parent" xml:space="preserve">
+    <value>EditDocumentListPanel</value>
+  </data>
+  <data name="&gt;&gt;ListNameLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RenameDocumentListBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RenameDocumentListBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 91</value>
+  </data>
+  <data name="RenameDocumentListBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="RenameDocumentListBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 52</value>
+  </data>
+  <data name="RenameDocumentListBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="RenameDocumentListBtn.Text" xml:space="preserve">
+    <value>Перейменувати </value>
+  </data>
+  <data name="&gt;&gt;RenameDocumentListBtn.Name" xml:space="preserve">
+    <value>RenameDocumentListBtn</value>
+  </data>
+  <data name="&gt;&gt;RenameDocumentListBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RenameDocumentListBtn.Parent" xml:space="preserve">
+    <value>EditDocumentListPanel</value>
+  </data>
+  <data name="&gt;&gt;RenameDocumentListBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="ListNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 34</value>
+  </data>
+  <data name="ListNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ListNameTextBox.Name" xml:space="preserve">
+    <value>ListNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;ListNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListNameTextBox.Parent" xml:space="preserve">
+    <value>EditDocumentListPanel</value>
+  </data>
+  <data name="&gt;&gt;ListNameTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EditDocumentListPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 147</value>
+  </data>
+  <data name="EditDocumentListPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 166</value>
+  </data>
+  <data name="EditDocumentListPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListPanel.Name" xml:space="preserve">
+    <value>EditDocumentListPanel</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListPanel.Parent" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ChooseUserLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChooseUserLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="ChooseUserLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChooseUserLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 76</value>
+  </data>
+  <data name="ChooseUserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 27</value>
+  </data>
+  <data name="ChooseUserLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="ChooseUserLabel.Text" xml:space="preserve">
+    <value>Виберіть користувача:</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserLabel.Name" xml:space="preserve">
+    <value>ChooseUserLabel</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserLabel.Parent" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ChooseUserLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SelectUserForListsComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="SelectUserForListsComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 106</value>
+  </data>
+  <data name="SelectUserForListsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 35</value>
+  </data>
+  <data name="SelectUserForListsComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForListsComboBox.Name" xml:space="preserve">
+    <value>SelectUserForListsComboBox</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForListsComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForListsComboBox.Parent" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SelectUserForListsComboBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BackToCreatingDocumentListBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BackToCreatingDocumentListBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 337</value>
+  </data>
+  <data name="BackToCreatingDocumentListBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 52</value>
+  </data>
+  <data name="BackToCreatingDocumentListBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="BackToCreatingDocumentListBtn.Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="&gt;&gt;BackToCreatingDocumentListBtn.Name" xml:space="preserve">
+    <value>BackToCreatingDocumentListBtn</value>
+  </data>
+  <data name="&gt;&gt;BackToCreatingDocumentListBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackToCreatingDocumentListBtn.Parent" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;BackToCreatingDocumentListBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DeleteDocumentListBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DeleteDocumentListBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 335</value>
+  </data>
+  <data name="DeleteDocumentListBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="DeleteDocumentListBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 56</value>
+  </data>
+  <data name="DeleteDocumentListBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="DeleteDocumentListBtn.Text" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentListBtn.Name" xml:space="preserve">
+    <value>DeleteDocumentListBtn</value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentListBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentListBtn.Parent" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentListBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ShowDocumentListBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowDocumentListBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 337</value>
+  </data>
+  <data name="ShowDocumentListBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="ShowDocumentListBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 52</value>
+  </data>
+  <data name="ShowDocumentListBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="ShowDocumentListBtn.Text" xml:space="preserve">
+    <value>Переглянути список</value>
+  </data>
+  <data name="&gt;&gt;ShowDocumentListBtn.Name" xml:space="preserve">
+    <value>ShowDocumentListBtn</value>
+  </data>
+  <data name="&gt;&gt;ShowDocumentListBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowDocumentListBtn.Parent" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShowDocumentListBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="EditDocumentListGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="EditDocumentListGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 517</value>
+  </data>
+  <data name="EditDocumentListGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="EditDocumentListGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="EditDocumentListGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>934, 407</value>
+  </data>
+  <data name="EditDocumentListGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="EditDocumentListGroupBox.Text" xml:space="preserve">
+    <value>Редагування списків документів</value>
+  </data>
+  <data name="EditDocumentListGroupBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListGroupBox.Name" xml:space="preserve">
+    <value>EditDocumentListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListGroupBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DocumentsDataGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 36</value>
+  </data>
+  <data name="DocumentsDataGrid.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="DocumentsDataGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>995, 287</value>
+  </data>
+  <data name="DocumentsDataGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DocumentsDataGrid.Name" xml:space="preserve">
+    <value>DocumentsDataGrid</value>
+  </data>
+  <data name="&gt;&gt;DocumentsDataGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentsDataGrid.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentsDataGrid.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BackToListsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BackToListsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 450</value>
+  </data>
+  <data name="BackToListsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 54</value>
+  </data>
+  <data name="BackToListsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BackToListsBtn.Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="&gt;&gt;BackToListsBtn.Name" xml:space="preserve">
+    <value>BackToListsBtn</value>
+  </data>
+  <data name="&gt;&gt;BackToListsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackToListsBtn.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;BackToListsBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NameOfDocumentLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NameOfDocumentLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="NameOfDocumentLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NameOfDocumentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 352</value>
+  </data>
+  <data name="NameOfDocumentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 27</value>
+  </data>
+  <data name="NameOfDocumentLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="NameOfDocumentLabel.Text" xml:space="preserve">
+    <value>Найменування:</value>
+  </data>
+  <data name="&gt;&gt;NameOfDocumentLabel.Name" xml:space="preserve">
+    <value>NameOfDocumentLabel</value>
+  </data>
+  <data name="&gt;&gt;NameOfDocumentLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameOfDocumentLabel.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;NameOfDocumentLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items" xml:space="preserve">
+    <value>Акт</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items1" xml:space="preserve">
+    <value>Вказівка</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items2" xml:space="preserve">
+    <value>Довідка </value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items3" xml:space="preserve">
+    <value>Договір</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items4" xml:space="preserve">
+    <value>Доручення </value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items5" xml:space="preserve">
+    <value>Записка</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items6" xml:space="preserve">
+    <value>Заява</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items7" xml:space="preserve">
+    <value>Звіт</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items8" xml:space="preserve">
+    <value>Контракт</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items9" xml:space="preserve">
+    <value>Лист</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items10" xml:space="preserve">
+    <value>Ордер</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items11" xml:space="preserve">
+    <value>Паспорт</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items12" xml:space="preserve">
+    <value>План</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items13" xml:space="preserve">
+    <value>Положення </value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items14" xml:space="preserve">
+    <value>Протокол</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items15" xml:space="preserve">
+    <value>Резюме</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items16" xml:space="preserve">
+    <value>Розписка</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items17" xml:space="preserve">
+    <value>Розпорядження</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items18" xml:space="preserve">
+    <value>Свідотство</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items19" xml:space="preserve">
+    <value>Сертифікат</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items20" xml:space="preserve">
+    <value>Статут</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items21" xml:space="preserve">
+    <value>Інструкція</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Items22" xml:space="preserve">
+    <value>Угода</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 383</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 35</value>
+  </data>
+  <data name="DocumentTypeNameToChangeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeNameToChangeComboBox.Name" xml:space="preserve">
+    <value>DocumentTypeNameToChangeComboBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeNameToChangeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeNameToChangeComboBox.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeNameToChangeComboBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DocumentTermOfImplementationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocumentTermOfImplementationLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocumentTermOfImplementationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocumentTermOfImplementationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 352</value>
+  </data>
+  <data name="DocumentTermOfImplementationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 27</value>
+  </data>
+  <data name="DocumentTermOfImplementationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="DocumentTermOfImplementationLabel.Text" xml:space="preserve">
+    <value>Терміновість:</value>
+  </data>
+  <data name="&gt;&gt;DocumentTermOfImplementationLabel.Name" xml:space="preserve">
+    <value>DocumentTermOfImplementationLabel</value>
+  </data>
+  <data name="&gt;&gt;DocumentTermOfImplementationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentTermOfImplementationLabel.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTermOfImplementationLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DocumentTypeTermOfImplementationToChangeComboBox.Items" xml:space="preserve">
+    <value>Терміновий</value>
+  </data>
+  <data name="DocumentTypeTermOfImplementationToChangeComboBox.Items1" xml:space="preserve">
+    <value>Нетерміновий</value>
+  </data>
+  <data name="DocumentTypeTermOfImplementationToChangeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 383</value>
+  </data>
+  <data name="DocumentTypeTermOfImplementationToChangeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 35</value>
+  </data>
+  <data name="DocumentTypeTermOfImplementationToChangeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeTermOfImplementationToChangeComboBox.Name" xml:space="preserve">
+    <value>DocumentTypeTermOfImplementationToChangeComboBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeTermOfImplementationToChangeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeTermOfImplementationToChangeComboBox.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeTermOfImplementationToChangeComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DocumentDegreeOfPublicityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocumentDegreeOfPublicityLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocumentDegreeOfPublicityLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocumentDegreeOfPublicityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>816, 352</value>
+  </data>
+  <data name="DocumentDegreeOfPublicityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 27</value>
+  </data>
+  <data name="DocumentDegreeOfPublicityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="DocumentDegreeOfPublicityLabel.Text" xml:space="preserve">
+    <value>Ступінь гласності:</value>
+  </data>
+  <data name="&gt;&gt;DocumentDegreeOfPublicityLabel.Name" xml:space="preserve">
+    <value>DocumentDegreeOfPublicityLabel</value>
+  </data>
+  <data name="&gt;&gt;DocumentDegreeOfPublicityLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentDegreeOfPublicityLabel.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentDegreeOfPublicityLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DocumentTypeDegreeOfPublicityToChangeComboBox.Items" xml:space="preserve">
+    <value>Секретний</value>
+  </data>
+  <data name="DocumentTypeDegreeOfPublicityToChangeComboBox.Items1" xml:space="preserve">
+    <value>Звичайний</value>
+  </data>
+  <data name="DocumentTypeDegreeOfPublicityToChangeComboBox.Items2" xml:space="preserve">
+    <value>Службовий</value>
+  </data>
+  <data name="DocumentTypeDegreeOfPublicityToChangeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>821, 383</value>
+  </data>
+  <data name="DocumentTypeDegreeOfPublicityToChangeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 35</value>
+  </data>
+  <data name="DocumentTypeDegreeOfPublicityToChangeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeDegreeOfPublicityToChangeComboBox.Name" xml:space="preserve">
+    <value>DocumentTypeDegreeOfPublicityToChangeComboBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeDegreeOfPublicityToChangeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeDegreeOfPublicityToChangeComboBox.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeDegreeOfPublicityToChangeComboBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DocumentOriginLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocumentOriginLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocumentOriginLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocumentOriginLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 431</value>
+  </data>
+  <data name="DocumentOriginLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 27</value>
+  </data>
+  <data name="DocumentOriginLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="DocumentOriginLabel.Text" xml:space="preserve">
+    <value>Призначення документа:</value>
+  </data>
+  <data name="&gt;&gt;DocumentOriginLabel.Name" xml:space="preserve">
+    <value>DocumentOriginLabel</value>
+  </data>
+  <data name="&gt;&gt;DocumentOriginLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentOriginLabel.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentOriginLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DocumentTypeOriginToChangeComboBox.AutoCompleteCustomSource" xml:space="preserve">
+    <value>Офіційно-діловий </value>
+  </data>
+  <data name="DocumentTypeOriginToChangeComboBox.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>Особистий</value>
+  </data>
+  <data name="DocumentTypeOriginToChangeComboBox.Items" xml:space="preserve">
+    <value>Офіційно-діловий</value>
+  </data>
+  <data name="DocumentTypeOriginToChangeComboBox.Items1" xml:space="preserve">
+    <value>Особистий</value>
+  </data>
+  <data name="DocumentTypeOriginToChangeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 469</value>
+  </data>
+  <data name="DocumentTypeOriginToChangeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 35</value>
+  </data>
+  <data name="DocumentTypeOriginToChangeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeOriginToChangeComboBox.Name" xml:space="preserve">
+    <value>DocumentTypeOriginToChangeComboBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeOriginToChangeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeOriginToChangeComboBox.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentTypeOriginToChangeComboBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="DocumentNameToChangeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 383</value>
+  </data>
+  <data name="DocumentNameToChangeTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="DocumentNameToChangeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 34</value>
+  </data>
+  <data name="DocumentNameToChangeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeTextBox.Name" xml:space="preserve">
+    <value>DocumentNameToChangeTextBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeTextBox.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="DocumentNameToChangeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DocumentNameToChangeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="DocumentNameToChangeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DocumentNameToChangeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 352</value>
+  </data>
+  <data name="DocumentNameToChangeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 27</value>
+  </data>
+  <data name="DocumentNameToChangeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="DocumentNameToChangeLabel.Text" xml:space="preserve">
+    <value>Ім'я документа:</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeLabel.Name" xml:space="preserve">
+    <value>DocumentNameToChangeLabel</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeLabel.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentNameToChangeLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="EditDocumentBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditDocumentBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 450</value>
+  </data>
+  <data name="EditDocumentBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 54</value>
+  </data>
+  <data name="EditDocumentBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="EditDocumentBtn.Text" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentBtn.Name" xml:space="preserve">
+    <value>EditDocumentBtn</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentBtn.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentBtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="DeleteDocumentBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DeleteDocumentBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>821, 450</value>
+  </data>
+  <data name="DeleteDocumentBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 54</value>
+  </data>
+  <data name="DeleteDocumentBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DeleteDocumentBtn.Text" xml:space="preserve">
+    <value>Видалити </value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentBtn.Name" xml:space="preserve">
+    <value>DeleteDocumentBtn</value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentBtn.Parent" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DeleteDocumentBtn.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="DocumentsInListGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="DocumentsInListGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1202, 52</value>
+  </data>
+  <data name="DocumentsInListGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="DocumentsInListGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="DocumentsInListGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 527</value>
+  </data>
+  <data name="DocumentsInListGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="DocumentsInListGroupBox.Text" xml:space="preserve">
+    <value>Документи у списку</value>
+  </data>
+  <data name="DocumentsInListGroupBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DocumentsInListGroupBox.Name" xml:space="preserve">
+    <value>DocumentsInListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DocumentsInListGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DocumentsInListGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DocumentsInListGroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BackToUserCreatingBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BackToUserCreatingBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 417</value>
+  </data>
+  <data name="BackToUserCreatingBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 58</value>
+  </data>
+  <data name="BackToUserCreatingBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="BackToUserCreatingBtn.Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="&gt;&gt;BackToUserCreatingBtn.Name" xml:space="preserve">
+    <value>BackToUserCreatingBtn</value>
+  </data>
+  <data name="&gt;&gt;BackToUserCreatingBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackToUserCreatingBtn.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;BackToUserCreatingBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UserNickNameToEditTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 373</value>
+  </data>
+  <data name="UserNickNameToEditTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="UserNickNameToEditTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="UserNickNameToEditTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameToEditTextBox.Name" xml:space="preserve">
+    <value>UserNickNameToEditTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameToEditTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameToEditTextBox.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameToEditTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UserNickNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserNickNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="UserNickNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UserNickNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 341</value>
+  </data>
+  <data name="UserNickNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 27</value>
+  </data>
+  <data name="UserNickNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="UserNickNameLabel.Text" xml:space="preserve">
+    <value>Нікнейм:</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameLabel.Name" xml:space="preserve">
+    <value>UserNickNameLabel</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameLabel.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserNickNameLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>687, 341</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Дата народження:</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UserBirthdayDateToEditTimePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="UserBirthdayDateToEditTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 370</value>
+  </data>
+  <data name="UserBirthdayDateToEditTimePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="UserBirthdayDateToEditTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 34</value>
+  </data>
+  <data name="UserBirthdayDateToEditTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;UserBirthdayDateToEditTimePicker.Name" xml:space="preserve">
+    <value>UserBirthdayDateToEditTimePicker</value>
+  </data>
+  <data name="&gt;&gt;UserBirthdayDateToEditTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserBirthdayDateToEditTimePicker.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserBirthdayDateToEditTimePicker.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="UserLastNameToEditTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 373</value>
+  </data>
+  <data name="UserLastNameToEditTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="UserLastNameToEditTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="UserLastNameToEditTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameToEditTextBox.Name" xml:space="preserve">
+    <value>UserLastNameToEditTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameToEditTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameToEditTextBox.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserLastNameToEditTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LastNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LastNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="LastNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 341</value>
+  </data>
+  <data name="LastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 27</value>
+  </data>
+  <data name="LastNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LastNameLabel.Text" xml:space="preserve">
+    <value>Прізвище:</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Name" xml:space="preserve">
+    <value>LastNameLabel</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="UserNameToEditTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 373</value>
+  </data>
+  <data name="UserNameToEditTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="UserNameToEditTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="UserNameToEditTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UserNameToEditTextBox.Name" xml:space="preserve">
+    <value>UserNameToEditTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserNameToEditTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNameToEditTextBox.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UserNameToEditTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NameOfUserLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NameOfUserLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt</value>
+  </data>
+  <data name="NameOfUserLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NameOfUserLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 341</value>
+  </data>
+  <data name="NameOfUserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 27</value>
+  </data>
+  <data name="NameOfUserLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="NameOfUserLabel.Text" xml:space="preserve">
+    <value>Ім'я:</value>
+  </data>
+  <data name="&gt;&gt;NameOfUserLabel.Name" xml:space="preserve">
+    <value>NameOfUserLabel</value>
+  </data>
+  <data name="&gt;&gt;NameOfUserLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameOfUserLabel.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;NameOfUserLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="DeleteUserBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DeleteUserBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 417</value>
+  </data>
+  <data name="DeleteUserBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 58</value>
+  </data>
+  <data name="DeleteUserBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DeleteUserBtn.Text" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserBtn.Name" xml:space="preserve">
+    <value>DeleteUserBtn</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserBtn.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="EditUserBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditUserBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 417</value>
+  </data>
+  <data name="EditUserBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 58</value>
+  </data>
+  <data name="EditUserBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="EditUserBtn.Text" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="&gt;&gt;EditUserBtn.Name" xml:space="preserve">
+    <value>EditUserBtn</value>
+  </data>
+  <data name="&gt;&gt;EditUserBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditUserBtn.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;EditUserBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="UsersDataGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 49</value>
+  </data>
+  <data name="UsersDataGrid.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="UsersDataGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 276</value>
+  </data>
+  <data name="UsersDataGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UsersDataGrid.Name" xml:space="preserve">
+    <value>UsersDataGrid</value>
+  </data>
+  <data name="&gt;&gt;UsersDataGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UsersDataGrid.Parent" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UsersDataGrid.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="UsersGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="UsersGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1045, 517</value>
+  </data>
+  <data name="UsersGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 492</value>
+  </data>
+  <data name="UsersGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="UsersGroupBox.Text" xml:space="preserve">
+    <value>Користувачі</value>
+  </data>
+  <data name="UsersGroupBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;UsersGroupBox.Name" xml:space="preserve">
+    <value>UsersGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UsersGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UsersGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UsersGroupBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FirstMessageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FirstMessageLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 18pt, style=Bold</value>
+  </data>
+  <data name="FirstMessageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FirstMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 96</value>
+  </data>
+  <data name="FirstMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 36</value>
+  </data>
+  <data name="FirstMessageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="FirstMessageLabel.Text" xml:space="preserve">
+    <value>Оберіть тип користувача:</value>
+  </data>
+  <data name="&gt;&gt;FirstMessageLabel.Name" xml:space="preserve">
+    <value>FirstMessageLabel</value>
+  </data>
+  <data name="&gt;&gt;FirstMessageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstMessageLabel.Parent" xml:space="preserve">
+    <value>StartPanel</value>
+  </data>
+  <data name="&gt;&gt;FirstMessageLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PremiumUserBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat Black, 13.7999992pt, style=Bold</value>
+  </data>
+  <data name="PremiumUserBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PremiumUserBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 245</value>
+  </data>
+  <data name="PremiumUserBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 63</value>
+  </data>
+  <data name="PremiumUserBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PremiumUserBtn.Text" xml:space="preserve">
+    <value>Premium користувач</value>
+  </data>
+  <data name="&gt;&gt;PremiumUserBtn.Name" xml:space="preserve">
+    <value>PremiumUserBtn</value>
+  </data>
+  <data name="&gt;&gt;PremiumUserBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PremiumUserBtn.Parent" xml:space="preserve">
+    <value>StartPanel</value>
+  </data>
+  <data name="&gt;&gt;PremiumUserBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DefaultUserBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat Black, 13.7999992pt, style=Bold</value>
+  </data>
+  <data name="DefaultUserBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DefaultUserBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 160</value>
+  </data>
+  <data name="DefaultUserBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 63</value>
+  </data>
+  <data name="DefaultUserBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DefaultUserBtn.Text" xml:space="preserve">
+    <value>Простий користувач</value>
+  </data>
+  <data name="&gt;&gt;DefaultUserBtn.Name" xml:space="preserve">
+    <value>DefaultUserBtn</value>
+  </data>
+  <data name="&gt;&gt;DefaultUserBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DefaultUserBtn.Parent" xml:space="preserve">
+    <value>StartPanel</value>
+  </data>
+  <data name="&gt;&gt;DefaultUserBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StartPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 36</value>
+  </data>
+  <data name="StartPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 432</value>
+  </data>
+  <data name="StartPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;StartPanel.Name" xml:space="preserve">
+    <value>StartPanel</value>
+  </data>
+  <data name="&gt;&gt;StartPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StartPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>309, 17</value>
+  </metadata>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>661, 442</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 7.79999971pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Document Manager</value>
+  </data>
+  <data name="&gt;&gt;DocumentToolStripMenuItem.Name" xml:space="preserve">
+    <value>DocumentToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DocumentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewDocumentToolStripMenuItem.Name" xml:space="preserve">
+    <value>CreateNewDocumentToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CreateNewDocumentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddStampToolStripMenuItem.Name" xml:space="preserve">
+    <value>AddStampToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AddStampToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdditionalFunctionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>AdditionalFunctionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AdditionalFunctionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChooseActionToolStripMenuItem.Name" xml:space="preserve">
+    <value>ChooseActionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ChooseActionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewDocumentListToolStripMenuItem.Name" xml:space="preserve">
+    <value>CreateNewDocumentListToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CreateNewDocumentListToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListToolStripMenuItem.Name" xml:space="preserve">
+    <value>EditDocumentListToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;EditDocumentListToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserToolStripMenuItem.Name" xml:space="preserve">
+    <value>UserToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;UserToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddNewUserToolStripMenuItem.Name" xml:space="preserve">
+    <value>AddNewUserToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AddNewUserToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowUsersToolStripMenuItem.Name" xml:space="preserve">
+    <value>ShowUsersToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ShowUsersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

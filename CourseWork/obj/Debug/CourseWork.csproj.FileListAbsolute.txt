@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.exe.config
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.exe
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.pdb
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.Data.dll
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\bin\Debug\CourseWork.Data.pdb
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.Properties.Resources.resources
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.CopyComplete
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.exe
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.pdb
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.MainForm.resources
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.AddStampForm.resources
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork\obj\Debug\CourseWork.AdditionalOptionsForm.resources

@@ -1,0 +1,6 @@
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork.Data\bin\Debug\CourseWork.Data.dll
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork.Data\bin\Debug\CourseWork.Data.pdb
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork.Data\obj\Debug\CourseWork.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork.Data\obj\Debug\CourseWork.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork.Data\obj\Debug\CourseWork.Data.dll
+C:\Users\ASUS\Desktop\курсач\CourseWork\CourseWork\CourseWork.Data\obj\Debug\CourseWork.Data.pdb
